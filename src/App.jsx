@@ -1,6 +1,7 @@
 import Apollo from "./Apollo";
 import "./App.css";
 import ReactQuery from "./ReactQuery";
+import ReactQueryCrud from "./ReactQueryCrud";
 import Urql from "./Urql";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <hr />
       <ReactQuery />
       <hr />
+      <ReactQueryCrud />
     </div>
   );
 }
